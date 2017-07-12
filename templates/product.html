@@ -1,0 +1,25 @@
+<ion-view title="Product" left-buttons="leftButtons" right-buttons="rightButtons">
+<ion-header-bar  class="bar bar-subheader item-input-inset" >
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input id="searchKey" type="search" placeholder="Search" ng-model="search.$" autocorrect="off" >
+            <button class="button button-clear" ng-click="clearSearch()">X</button>
+        </label>
+</ion-header-bar>
+    <ion-content has-header="false">
+        {{test}}
+    </ion-content>
+
+    <ion-footer-bar>
+        <div class="tabs tabs-royal tabs-icon-left" style="position: static; margin-bottom: 15px;">
+            <a class="tab-item">
+                <i class="icon ion-home"></i> Home
+            </a>
+           
+            <a class="tab-item active">
+                <i class="icon ion-gear-a"></i> Settings
+            </a>
+        </div>
+
+    </ion-footer-bar>
+</ion-view>
